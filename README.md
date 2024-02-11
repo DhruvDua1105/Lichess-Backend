@@ -19,9 +19,32 @@ Clone the repository:
 
 ## Set up environment variables:
 
-DB_URL: URL of your PostgreSQL Database.\
 MYSECRETKEY: Secret key for JWT token generation.\
 MYALGORITHM: Algorithm for JWT token generation.
+
+## PostgreSQL Setup
+This repository uses PostgreSQL as the database management system. Follow the steps below to set up PostgreSQL and configure the application to use it:
+
+## Install PostgreSQL
+If you haven't already installed PostgreSQL, you can download and install it from the official website. Alternatively, you can use a package manager like apt on Ubuntu or brew on macOS.
+
+## Create Database
+After installing PostgreSQL, create a new database for the application. You can do this using the createdb command-line utility or a graphical tool like pgAdmin.
+
+### `createdb mydatabase`
+
+## Set Environment Variables
+Set the database URL in the .env file. Replace username, password, hostname, port, and database_name with your PostgreSQL credentials and database name.
+
+### `DB_URL=postgresql://username:password@hostname:port/database_name`
+
+## Update SQLAlchemy Configuration 
+Update the SQLAlchemy configuration to use the PostgreSQL database. Modify the create_engine function call in your database.py file to use the URL_DATABASE environment variable.\
+Run the database.py file
+
+## Start Application
+With the PostgreSQL database configured and running, start your FastAPI application. It should now connect to the PostgreSQL database specified in the environment variables.
+
 
 ## Run the application:
 
