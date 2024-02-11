@@ -22,8 +22,6 @@ Clone the repository:
 MYSECRETKEY: Secret key for JWT token generation.\
 MYALGORITHM: Algorithm for JWT token generation.
 
-## Swagger Docs can be accessed at http://127.0.0.1:8000/docs
-
 ## PostgreSQL Setup
 This repository uses PostgreSQL as the database management system. Follow the steps below to set up PostgreSQL and configure the application to use it:
 
@@ -47,10 +45,11 @@ Run the database.py file
 ## Start Application
 With the PostgreSQL database configured and running, start your FastAPI application. It should now connect to the PostgreSQL database specified in the environment variables.
 
-
 ## Run the application:
 
 ### `uvicorn main:app --reload`
+
+## Swagger Docs can be accessed at http://127.0.0.1:8000/docs
 
 ## Endpoints
 /topClassical/: GET endpoint to retrieve the top classical players' ratings.\
