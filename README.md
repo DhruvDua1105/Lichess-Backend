@@ -13,7 +13,7 @@ Clone the repository:
 
 ### `git clone https://github.com/DhruvDua1105/Lichess-Backend.git`
 
-##Install dependencies:
+## Install dependencies:
 
 ### `pip install -r requirements.txt`
 
