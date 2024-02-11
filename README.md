@@ -19,6 +19,7 @@ Clone the repository:
 
 ## Set up environment variables:
 
+DB_URL: URL of your PostgreSQL Database.\
 MYSECRETKEY: Secret key for JWT token generation.\
 MYALGORITHM: Algorithm for JWT token generation.
 
