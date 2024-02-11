@@ -11,7 +11,7 @@ Authentication: Login and signup endpoints with JWT token generation for authent
 ## Setup
 Clone the repository:
 
-### `git clone https://github.com/your-username/fastapi-chess-player-rating.git`
+### `git clone https://github.com/DhruvDua1105/Lichess-Backend.git`
 
 ##Install dependencies:
 
