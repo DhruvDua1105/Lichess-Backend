@@ -22,6 +22,8 @@ Clone the repository:
 MYSECRETKEY: Secret key for JWT token generation.\
 MYALGORITHM: Algorithm for JWT token generation.
 
+## Swagger Docs can be accessed at http://127.0.0.1:8000/docs
+
 ## PostgreSQL Setup
 This repository uses PostgreSQL as the database management system. Follow the steps below to set up PostgreSQL and configure the application to use it:
 
